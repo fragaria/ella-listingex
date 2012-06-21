@@ -44,7 +44,7 @@ Next step is to set the pagination::
     LISTINGEX_FIRST_PAGE_COUNT = 11   # Number of objects on first page
 
 The ``ella_listingex`` works on all category listings which are not blacklisted.
-If you need tu turn the special behaviour off on some pages, use the
+If you need to turn the special behaviour off on some pages, use the
 ``LISTINGEX_BLACKLIST`` configuration option to provide list of regular
 expressions which will be matched against category's ``tree_path`` attribute.
 If there is a match, the first page will be paginated normally::
