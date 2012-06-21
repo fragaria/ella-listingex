@@ -1,2 +1,1 @@
-django
-south
+ella>=2,<3

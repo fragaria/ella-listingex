@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-import ella-listingex
+import ella_listingex
 
 setup(
     name='ella-listingex',
-    version=ella-listingex.__versionstr__,
+    version=ella_listingex.__versionstr__,
     description='',
     long_description='\n'.join((
         '',
@@ -34,9 +34,7 @@ setup(
     ],
     install_requires=[
         'setuptools>=0.6b1',
-        'Django',
-        'south>=0.7',
-        'gunicorn',
+        'ella>=2,<3',
     ],
     setup_requires=[
         'setuptools_dummy',
