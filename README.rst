@@ -8,7 +8,7 @@ of them).
 Sometimes, this does not meet the site's requirements. Very often, it is
 demanded, that first page should be somehow different, e.g. list one more
 article that is rendered in different style (like leading article). This
-is unfortunately not available with default Ella.
+is unfortunately not possible to do without hackish workarounds in default Ella.
 
 How to use this
 ===============
